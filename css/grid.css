@@ -1,0 +1,48 @@
+/*--------------------------------------------------Columns-----------------------------------------------------------*/
+.span-1-of-1 {
+  width: 100%;
+}
+.span-1-of-2 {
+  width: 50%;
+}
+.span-1-of-3 {
+  width: 33.33%;
+}
+.span-2-of-3 {
+  width: 66.67%;
+}
+.span-1-of-4 {
+  width: 25%;
+}
+/*---------------------------------------------------Row-----------------------------------------------------------*/
+.row {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+/*--------------------------------------------------center-align-----------------------------------------------------------*/
+.center-align {
+  align-items: center;
+}
+/*--------------------------------------------------center-align-----------------------------------------------------------*/
+.heading {
+  font-size: 180%;
+  color: #555;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 150%;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.heading::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  width: 100px;
+  margin: auto;
+  margin-top: 30px;
+}
