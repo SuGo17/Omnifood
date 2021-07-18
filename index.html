@@ -361,25 +361,25 @@
     <section id="contact" class="section contact-us">
       <h2 class="heading">We're happy to hear from you</h2>
       <div class="form contact-form">
-        <form action="" autocomplete="off">
+        <form action="" autocomplete="off" netlify>
           <div class="box2 center-align">
             <div class="span-1-of-3 label"><label for="name">Name</label></div>
-            <div class="span-2-of-3 input"><input type="text" id="name" /></div>
+            <div class="span-2-of-3 input"><input type="text" id="name" name="Name" /></div>
           </div>
           <div class="box2 center-align">
             <div class="span-1-of-3 label">
               <label for="email">Email</label>
             </div>
             <div class="span-2-of-3 input">
-              <input type="email" id="email" />
+              <input type="email" id="email" name="Email"/>
             </div>
           </div>
           <div class="box2 center-align">
-            <div class="span-1-of-3 label">
+            <div class="span-1-of-3 label"> 
               <label for="find">How did you find us?</label>
             </div>
             <div class="span-2-of-3 input">
-              <select name="" id="find">
+              <select name="Find?" id="find">
                 <option value="" selected>Please choose an option.</option>
                 <option value="search">Search Engine</option>
                 <option value="friends">Friends</option>
@@ -393,7 +393,7 @@
               <label for="newsletter">Newsletter?</label>
             </div>
             <div class="span-2-of-3 input">
-              <input type="checkbox" name="YES Please!" id="newsletter" />YES
+              <input type="checkbox" name="News Letter" id="newsletter" />YES
               Please!
             </div>
           </div>
@@ -402,13 +402,13 @@
               <label for="message">Drop us a line</label>
             </div>
             <div class="span-2-of-3 input">
-              <textarea name="" id="message"></textarea>
+              <textarea name="Message" id="message"></textarea>
             </div>
           </div>
           <div class="box2 center-align">
             <div class="span-1-of-3 label"></div>
             <div class="span-2-of-3 input">
-              <input type="button" value="Send it!" class="btn btn-full" />
+              <input type="submit" class="btn btn-full" />
             </div>
           </div>
         </form>
